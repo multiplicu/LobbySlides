@@ -18,6 +18,6 @@ class MainActivity : FragmentActivity() {
         val webView: WebView = findViewById(R.id.webview)
         webView.settings.javaScriptEnabled = true
         webView.settings.domStorageEnabled = true
-        webView.loadUrl("https://multiplicu.com/")
+        webView.loadUrl("https://multiplicu.com/lobby-slides")
     }
 }
